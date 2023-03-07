@@ -27,5 +27,6 @@
         "php": ">=7.3 <8.1"
     },
     "serviceProvider": "Novalnet\\Providers\\NovalnetServiceProvider",
+     "runOnBuild": [],
 }
 
