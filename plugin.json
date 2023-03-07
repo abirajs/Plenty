@@ -1,7 +1,7 @@
 {
-    "name": "NovalnetV13",
-    "namespace": "NovalnetV13",
-    "marketplaceName": {"de": "NovalnetV13", "en": "NovalnetV13"},
+    "name": "Novalnet",
+    "namespace": "Novalnet",
+    "marketplaceName": {"de": "Novalnet", "en": "Novalnet"},
     "type": "payment",
     "version": "13.0.0",
     "license": "GPL-3.0",
