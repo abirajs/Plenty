@@ -90,7 +90,7 @@ class NovalnetAssistant extends WizardProvider
     protected function getIcon()
     {
         $app = pluginApp(Application::class);
-        $icon = $app->getUrlPath('NovalnetV13').'/images/novalnet_icon.png';
+        $icon = $app->getUrlPath('Novalnet').'/images/novalnet_icon.png';
         return $icon;
     }
 
