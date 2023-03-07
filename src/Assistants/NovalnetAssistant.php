@@ -58,7 +58,6 @@ class NovalnetAssistant extends WizardProvider
             "title" => 'Novalnet',
             "shortDescription" => 'Secure and Trust',
             "iconPath" => $this->getIcon(),
-            "settingsHandlerClass" => NovalnetAssistantSettingsHandler::class,
             "translationNamespace" => 'Novalnet',
             "key" => 'payment-novalnet-assistant',
             "topics" => ['payment'],
