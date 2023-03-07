@@ -18,6 +18,7 @@
     "email": "sales@novalnet.de",
     "phone": "+49 89 923068320",
     "keywords": ["Novalnet", "plentymarkets", "payment", "plugin"],
+    "containers": [],
     "require": {
         "IO": ">= 4.0.0",
         "Ceres": ">= 4.0.0"
