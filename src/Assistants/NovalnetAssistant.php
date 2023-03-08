@@ -240,3 +240,4 @@ class NovalnetAssistant extends WizardProvider
         return $config;
     }
 }
+ 
