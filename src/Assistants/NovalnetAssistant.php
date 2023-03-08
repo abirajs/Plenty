@@ -7,7 +7,7 @@
  * @license      https://www.novalnet.de/payment-plugins/kostenlos/lizenz
  */
 
-namespace Novalnet\Assistants;
+namespace Novalnet1\Assistants;
 
 
 use Plenty\Modules\Wizard\Services\WizardProvider;
