@@ -156,42 +156,42 @@ class NovalnetAssistant extends WizardProvider
                                             'required'  => true
                                            ]
                         ],
-									'novalnetAccessKey' =>
+			 'novalnetAccessKey' =>
                         [
                             'type'      => 'text',
                             'options'   => [
-                                            'name'      => 'Public Access Key',
+                                            'name'      => 'NovalnetAssistant.novalnetAccessKeyLabel',
+                                            'tooltip'   => 'NovalnetAssistant.novalnetAccessKeyTooltip',
                                             'required'  => true
                                            ]
                         ],
-                        
                         'novalnetTariffId' =>
                         [
                             'type'      => 'text',
                             'options'   => [
-                                            'name'      => 'Traiff Id',
+                                            'name'      => 'NovalnetAssistant.novalnetTariffIdLabel',
+                                            'tooltip'   => 'NovalnetAssistant.novalnetTariffIdTooltip',
                                             'required'  => true,
                                             'pattern'   => '^[1-9]\d*$'
                                            ]
                         ],
-                        
                         'novalnetClientKey' =>
                         [
                             'type'      => 'text',
                             'options'   => [
-                                            'name'      => 'Client Key',
+                                            'name'      => 'NovalnetAssistant.novalnetClientKeyLabel',
+                                            'tooltip'   => 'NovalnetAssistant.novalnetClientKeyTooltip',
                                             'required'  => true
                                            ]
                         ],
-                        
                         'novalnetOrderCreation' =>
                         [
                             'type'         => 'checkbox',
                             'defaultValue' => true,
                             'options'   => [
-                                            'name'  => 'Order Creation'
+                                            'name'  => 'NovalnetAssistant.novalnetOrderCreationLabel'
                                            ]
-                        ],
+                        ]
                         
                     ]
                 ]
@@ -211,27 +211,28 @@ class NovalnetAssistant extends WizardProvider
     {
         $config['steps']['novalnetWebhookConf'] =
         [
-                "title"     => 'Notification / Webhook URL Setup',
+                "title"     => 'NovalnetAssistant.novalnetWebhookConf',
                 "sections"  =>
                 [
                     [
-                        "title"         => 'Notification / Webhook URL Setup',
-                        "description"   => '',
+                        "title"         => 'NovalnetAssistant.novalnetWebhookConf',
+                        "description"   => 'NovalnetAssistant.novalnetWebhookConfDesc',
+
                         "form" =>
                         [
                             'novalnetWebhookTestMode' =>
                             [
                                 'type'      => 'checkbox',
                                 'options'   => [
-                                                'name'      => 'Allow manual testing of the Notification / Webhook URL'
+                                                'name'      => 'NovalnetAssistant.novalnetWebhookTestModeLabel'
                                                ]
                             ],
                             'novalnetWebhookEmailTo' =>
                             [
                                 'type'      => 'text',
                                 'options'   => [
-                                                'name'      => 'Send e-mail to',
-                                              
+                                                'name'      => 'NovalnetAssistant.novalnetWebhookEmailToLabel',
+                                                'tooltip'   => 'NovalnetAssistant.novalnetWebhookEmailToTooltip'
                                                ]
                             ]
                         ]
