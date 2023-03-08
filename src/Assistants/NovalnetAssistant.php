@@ -210,27 +210,27 @@ class NovalnetAssistant extends WizardProvider
     {
         $config['steps']['novalnetWebhookConf'] =
         [
-                "title"     => 'NovalnetAssistant.novalnetWebhookConf',
+                "title"     => 'Notification / Webhook URL Setup',
                 "sections"  =>
                 [
                     [
-                        "title"         => 'NovalnetAssistant.novalnetWebhookConf',
-                        "description"   => 'NovalnetAssistant.novalnetWebhookConfDesc',
+                        "title"         => 'Notification / Webhook URL Setup',
+                        "description"   => '',
                         "form" =>
                         [
                             'novalnetWebhookTestMode' =>
                             [
                                 'type'      => 'checkbox',
                                 'options'   => [
-                                                'name'      => 'NovalnetAssistant.novalnetWebhookTestModeLabel'
+                                                'name'      => 'Allow manual testing of the Notification / Webhook URL'
                                                ]
                             ],
                             'novalnetWebhookEmailTo' =>
                             [
                                 'type'      => 'text',
                                 'options'   => [
-                                                'name'      => 'NovalnetAssistant.novalnetWebhookEmailToLabel',
-                                                'tooltip'   => 'NovalnetAssistant.novalnetWebhookEmailToTooltip'
+                                                'name'      => 'Send e-mail to',
+                                              
                                                ]
                             ]
                         ]
