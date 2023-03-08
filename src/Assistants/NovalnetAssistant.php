@@ -55,13 +55,13 @@ class NovalnetAssistant extends WizardProvider
     {
         $config =
         [
-            "title" => 'Novalnet',
+            "title" => 'Novalnet2',
             "shortDescription" => 'Secure and Trust',
             "iconPath" => $this->getIcon(),
-            "translationNamespace" => 'Novalnet',
+            "translationNamespace" => 'Novalnet2',
             "key" => 'payment-novalnet-assistant',
             "topics" => ['payment'],
-            "priority" => 990,
+            "priority" => 999,
             "options" =>
             [
                 'clientId' =>
