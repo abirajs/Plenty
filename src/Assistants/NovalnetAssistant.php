@@ -197,4 +197,45 @@ class NovalnetAssistant extends WizardProvider
         ];
         return $config;
     }
+	
+ /**
+    * Create the webhook configuration
+    *
+    * @param array $config
+    *
+    * @return array
+    */
+    public function createWebhookConfiguration($config)
+    {
+        $config['steps']['novalnetWebhookConf'] =
+        [
+                "title"     => 'NovalnetAssistant.novalnetWebhookConf',
+                "sections"  =>
+                [
+                    [
+                        "title"         => 'NovalnetAssistant.novalnetWebhookConf',
+                        "description"   => 'NovalnetAssistant.novalnetWebhookConfDesc',
+                        "form" =>
+                        [
+                            'novalnetWebhookTestMode' =>
+                            [
+                                'type'      => 'checkbox',
+                                'options'   => [
+                                                'name'      => 'NovalnetAssistant.novalnetWebhookTestModeLabel'
+                                               ]
+                            ],
+                            'novalnetWebhookEmailTo' =>
+                            [
+                                'type'      => 'text',
+                                'options'   => [
+                                                'name'      => 'NovalnetAssistant.novalnetWebhookEmailToLabel',
+                                                'tooltip'   => 'NovalnetAssistant.novalnetWebhookEmailToTooltip'
+                                               ]
+                            ]
+                        ]
+                    ]
+                ]
+        ];
+        return $config;
+    }
 }
