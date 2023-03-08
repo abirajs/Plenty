@@ -140,11 +140,11 @@ class NovalnetAssistant extends WizardProvider
     {
         $config['steps']['novalnetGlobalConf'] =
         [
-            "title" => 'Novalnet API Configurations',
+            "title" => 'NovalnetAssistant.novalnetGlobalConf',
             "sections" => [
                 [
-                    "title"         => 'Novalnet API Configurations',
-                    "description"   => ' ',
+                    "title" => 'NovalnetAssistant.novalnetGlobalConf',
+                    "description"   => 'NovalnetAssistant.novalnetGlobalConfDesc',
                     "form"          =>
                     [
                         'novalnetPublicKey' =>
