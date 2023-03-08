@@ -154,6 +154,42 @@ class NovalnetAssistant extends WizardProvider
                                             'required'  =>  true
                                            ]
                         ],
+									'novalnetAccessKey' =>
+                        [
+                            'type'      => 'text',
+                            'options'   => [
+                                            'name'      => 'Public Access Key',
+                                            'required'  => true
+                                           ]
+                        ],
+                        
+                        'novalnetTariffId' =>
+                        [
+                            'type'      => 'text',
+                            'options'   => [
+                                            'name'      => 'Traiff Id',
+                                            'required'  => true,
+                                            'pattern'   => '^[1-9]\d*$'
+                                           ]
+                        ],
+                        
+                        'novalnetClientKey' =>
+                        [
+                            'type'      => 'text',
+                            'options'   => [
+                                            'name'      => 'Client Key',
+                                            'required'  => true
+                                           ]
+                        ],
+                        
+                        'novalnetOrderCreation' =>
+                        [
+                            'type'         => 'checkbox',
+                            'defaultValue' => true,
+                            'options'   => [
+                                            'name'  => 'Order Creation'
+                                           ]
+                        ],
                         
                     ]
                 ]
