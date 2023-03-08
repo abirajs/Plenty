@@ -7,9 +7,9 @@
  * @copyright(C) Novalnet
  * @license      https://www.novalnet.de/payment-plugins/kostenlos/lizenz
  */
-namespace Novalnet\Providers;
+namespace Novalnet1\Providers;
 
-use Novalnet\Assistants\NovalnetAssistant;
+use Novalnet1\Assistants\NovalnetAssistant;
 use Plenty\Plugin\ServiceProvider;
 use Plenty\Modules\Wizard\Contracts\WizardContainerContract;
 
