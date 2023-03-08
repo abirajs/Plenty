@@ -55,10 +55,10 @@ class NovalnetAssistant extends WizardProvider
     {
         $config =
         [
-            "title" => 'Novalnet2',
+            "title" => 'Novalnet1',
             "shortDescription" => 'Secure and Trust',
             "iconPath" => $this->getIcon(),
-            "translationNamespace" => 'Novalnet2',
+            "translationNamespace" => 'Novalnet1',
             "key" => 'payment-novalnet-assistant',
             "topics" => ['payment'],
             "priority" => 999,
@@ -90,7 +90,7 @@ class NovalnetAssistant extends WizardProvider
     protected function getIcon()
     {
         $app = pluginApp(Application::class);
-        $icon = $app->getUrlPath('Novalnet2').'/images/novalnet_icon.png';
+        $icon = $app->getUrlPath('Novalnet1').'/images/novalnet_icon.png';
         return $icon;
     }
 
