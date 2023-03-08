@@ -151,8 +151,9 @@ class NovalnetAssistant extends WizardProvider
                         [
                             'type'      => 'text',
                             'options'   => [
-                                            'name'      => 'Product Activation Key',
-                                            'required'  =>  true
+                                            'name'      => 'NovalnetAssistant.novalnetPublicKeyLabel',
+                                            'tooltip'   => 'NovalnetAssistant.novalnetPublicKeyTooltip',
+                                            'required'  => true
                                            ]
                         ],
 									'novalnetAccessKey' =>
