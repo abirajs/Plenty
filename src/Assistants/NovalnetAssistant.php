@@ -79,6 +79,7 @@ class NovalnetAssistant extends WizardProvider
         ];
 	
         $config = $this->createGlobalConfiguration($config);
+	$config = $this->createWebhookConfiguration($config);
         return $config;
     }
           
